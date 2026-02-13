@@ -299,7 +299,7 @@
 
 .pop-up {
   display: grid;
-  grid-template-columns: min-content 234px;
+  grid-template-columns: min-content 1fr;
   grid-template-rows: 1fr min-content;
   row-gap: 30px;
   column-gap: 20px;
