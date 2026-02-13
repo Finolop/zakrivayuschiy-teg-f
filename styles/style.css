@@ -33,12 +33,12 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  inline-size: var(--card-width);
   height: var(--header-card-height);
   border: 2px solid #000;
   font-family: var(--accent-font), fantasy, "Courier New", Courier, monospace;
   font-weight: var(--regular-weight);
   background-color: #fff;
+  inline-size: var(--card-width);
 }
 
 .header__title {
@@ -173,13 +173,13 @@
 }
 
 .core {
-  transition: fill 0.3s 0.03s linear;
   fill: transparent;
+  transition: fill 0.3s 0.03s linear;
 }
 
 .main-body {
-  transition: fill 0.3s linear;
   fill: transparent;
+  transition: fill 0.3s linear;
 }
 
 .like-icon:hover .core {
@@ -339,8 +339,8 @@
 
 .pop-up__button {
   grid-column: span 2;
+  padding-inline: clamp(7.15625rem, 6.8rem + 1.5vw, 8.15625rem);
   padding-block: 10.5px;
-  padding-inline: clamp(7.15625rem, 6.80rem + 1.50vw, 8.15625rem);
 }
 
 .pop-up .button__text {
@@ -373,6 +373,6 @@
   filter: blur(1.3rem);
 }
 
-.hue-rotate_blur_contrast_filter{
+.hue-rotate_blur_contrast_filter {
   filter: hue-rotate(90deg) blur(2px) contrast(60%);
 }
